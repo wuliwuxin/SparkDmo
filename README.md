@@ -1,32 +1,27 @@
 # SparkDmo
 Spark的实验
 ## 开发与运行环境
-
-1、CentOS7虚拟机
-
-2、Hadoop2.7.1
-
-3、Spark2.1.0
-
-4、Scala2.11.12
-
+- CentOS7虚拟机
+- Hadoop2.7.1
+- Spark2.1.0
+- Scala2.11.12
 ## Spark的特点
-1、快速
+-1、快速
 
 Spark的中间数据存放于内存中，有更高的迭代运算效率，而Hadoop每次迭代的中间数据存放于HDFS中，涉及硬盘的读写，明显降低了运算效率。
 
-2、易用
+-2、易用
 
 Spark支持使用Scala、Python、Java及R语言快速编写应用。同时Spark提供超过80个高级运算符，使得编写并行应用程序变得容易，并且可以在Scala、Python或R的交互模式下使用Spark
 
-3、通用
+-3、通用
 Spark可以与SQL、Streaming及复杂的分析良好结合。Spark还有一系列的高级工具，包括SparkSQL、MLib（机器学习库）、Graphx（图计算）和SparkStreaming，并且支持在一个应用中同时使用这些组件。
 
-4、随处运行
+-4、随处运行
 
 用户可以使用Spark的独立集群模式运行Spark，也可以在EC2（亚马逊弹性计算云入HadoopYARN或者ApacheMesos上运行Spark，并且可以HDFS、Cassandra、Hbase、Hive、Tachyon和任何分布式文件系统读取数据。
 
-5．代码简洁
+-5．代码简洁
 
 Spark支持使用Scala、Python等语言编写。ScalaI或者Python的代码相对Java来说都比较简洁，因此Spark使用scala或者Python编写应用程序要比使用Mapreduce编写应用程序简单方便。比如，Mapreduce实现单词计数可能需要60多行代码，而Spark用Scala语言实现只需要一行。
 快：比MR快100倍
